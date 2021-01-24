@@ -1,17 +1,34 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
-  Dimensions,
   FlatList,
-  Image,
-  ImageBackground,
   SafeAreaView,
   StyleSheet,
   TextInput,
   View,
 } from 'react-native';
-import Swiper from 'react-native-swiper';
-import Video from 'react-native-video';
 
+function renderHeader() {
+  const [query, setQuery] = useState('');
+  const [text, onChangeText] = useState('');
+  return (
+    <View
+      style={{
+        backgroundColor: '#fff',
+        marginVertical: 10,
+        borderRadius: 20,
+      }}>
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        clearButtonMode="always"
+        value={query}
+        onChangeText={(text) => onChangeText(text)}
+        placeholder="Search"
+        style={{backgroundColor: '#fff', paddingHorizontal: 20}}
+      />
+    </View>
+  );
+}
 const GridView = ({DATA, Item, Item2}) => {
   const renderItem = ({item}) => {
     if (item.type === 'photo') {
@@ -23,7 +40,7 @@ const GridView = ({DATA, Item, Item2}) => {
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        // ListHeaderComponent={renderHeader}
+        ListHeaderComponent={renderHeader}
         data={DATA}
         renderItem={renderItem}
         numColumns={3}

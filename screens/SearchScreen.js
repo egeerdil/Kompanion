@@ -392,31 +392,6 @@ const Item = ({url}) => (
   </View>
 );
 
-{
-  /* const handleSearch = (name) => {
-  let text = name.toLowerCase();
-
-  let filteredName = name.filter((item) => {
-    return item.name.toLowerCase().match(text);
-  });
-  if (!text || text === '') {
-    this.setState({
-      data: initial,
-    });
-  } else if (!Array.isArray(filteredName) && !filteredName.length) {
-    // set no data flag to true so as to render flatlist conditionally
-    this.setState({
-      noData: true,
-    });
-  } else if (Array.isArray(filteredName)) {
-    this.setState({
-      noData: false,
-      data: filteredName,
-    });
-  }
-};
-*/
-}
 
 const Item2 = ({url}) => (
   <View style={styles.item}>
@@ -433,31 +408,8 @@ const Item2 = ({url}) => (
     />
   </View>
 );
-{
-  /*
-function renderHeader() {
-  const [query, setQuery] = useState('');
-  return (
-    <View
-      style={{
-        backgroundColor: '#fff',
-        marginVertical: 10,
-        borderRadius: 20,
-      }}>
-      <TextInput
-        autoCapitalize="none"
-        autoCorrect={false}
-        clearButtonMode="always"
-        value={query}
-        onChangeText={(queryText) => handleSearch(queryText)}
-        placeholder="Search"
-        style={{backgroundColor: '#fff', paddingHorizontal: 20}}
-      />
-    </View>
-  );
-}
-*/
-}
+
+
 
 const App = () => {
   {
