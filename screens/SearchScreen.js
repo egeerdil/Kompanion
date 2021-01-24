@@ -173,7 +173,7 @@ const DATA = [
     comment: 'View 1 Comment',
     year: 2010,
     url:
-      'https://scontent.fist13-1.fna.fbcdn.net/v/t1.0-9/137559827_111037457597023_1450321202335698862_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=rcoxwtB0hkIAX-syhyU&_nc_ht=scontent.fist13-1.fna&oh=032b4af3ca407f547a6c67e08ae06968&oe=602F0BFA',
+      'https://images.pexels.com/photos/1519753/pexels-photo-1519753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     type: 'photo',
   },
   {
@@ -193,7 +193,7 @@ const DATA = [
     comment: 'View 1 Comment',
     year: 2010,
     url:
-      'https://scontent.fist13-1.fna.fbcdn.net/v/t1.0-9/137559827_111037457597023_1450321202335698862_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=rcoxwtB0hkIAX-syhyU&_nc_ht=scontent.fist13-1.fna&oh=032b4af3ca407f547a6c67e08ae06968&oe=602F0BFA',
+      'https://images.pexels.com/photos/1138369/pexels-photo-1138369.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     type: 'photo',
   },
   {
