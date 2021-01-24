@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "257557653232",
+    "project_id": "kompanion-b44aa",
+    "storage_bucket": "kompanion-b44aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257557653232:android:8cd0ae7b0d3b806a1d4435",
+        "android_client_info": {
+          "package_name": "com.kompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257557653232-puol0mrrm5t46lemfdou2dv3bvtvsng2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7ivsXffJUud2pYbX-6KwLKK3nWvYL-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257557653232-puol0mrrm5t46lemfdou2dv3bvtvsng2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
